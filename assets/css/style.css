@@ -1,0 +1,103 @@
+
+#header{
+	background: #ffffff;
+	border-bottom: solid #cccccc 1px;
+}
+
+#name{
+	background: #4aaaa5;
+	padding: 20px;
+	width: 250px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 100px;
+}
+
+h1{
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+}
+
+.navigation{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	top: -50px;
+	position: relative;
+	clear: right;
+	margin-right: 20%;
+
+}
+
+.contents{
+	background-image: url("/Users/Nao/Desktop/Basic-Portfolio/assets/images/pink_rice.png");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.mainpage{
+	background: #ffffff;
+	margin: 50px 0px 50px 100px;
+	width: 650px;
+	float: left;
+}
+
+h2{
+	background: #ffffff;
+	margin: 30px 30px;
+	padding: 30px 30px;
+	border-bottom: solid #cccccc 3px;
+}
+
+img{ 
+	 width: 180px;
+	 height: 250px;
+	 float: left;
+	 padding: 1em;
+}
+
+.sidebar{
+	background: #ffffff;
+	margin: 50px 50px;
+	padding: 10px 15px 20px 15px;
+	width: 250px;
+	float: left;
+}
+
+h3{
+	background: #ffffff;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	border-bottom: solid #cccccc 3px;
+}
+
+h2,h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+p{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 1em;
+}
+
+.logo{
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #666666;
+	text-align: center;
+	height: 30px;
+	}
+
+

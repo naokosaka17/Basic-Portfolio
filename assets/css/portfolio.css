@@ -1,0 +1,25 @@
+.picture{
+	position: relative;
+	left: 1.5em;
+	width: 200px;
+	height: 200px;
+	padding: 3em;
+}
+
+.text{
+	position: relative;
+	top: 200px;
+	left: 72px;
+	width: 200px;
+	height: 2.5em;
+	background-color: #EEA0C4;
+	margin-right: -400px;
+}
+
+h4{
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	color: white;
+	bottom: 285px; 
+}

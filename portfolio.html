@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<!--link CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>portfolio</title>
-</head>
+	<head>
+		<!--link CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+		<title>Portfolio</title>
+	</head>
 
 	<body>
 		<!--header-->
 		<header id="header">
-			<!--Name part -->
-			<div id="name">
-				<h1>Nao Kosaka</h1>
+			<div class="scale">
+					<!--Name part -->
+					<div id="name">
+						<h1>Nao Kosaka</h1>
+					</div>
+					<!--navigation -->
+					<nav class="navigation">
+						<a href="index.html">
+							About 
+						</a> |
+						<a href="portfolio.html">
+							Portfolio
+						</a> |
+						<a href="contact.html">
+							Contact
+						</a>
+					</nav>
+					
 			</div>
-				<!--navigation -->
-				<nav class="navigation">
-					<a href="index.html">
-						About 
-					</a> |
-						
-					<a href="portfolio.html">
-						Portfolio
-					</a> |
-					<a href="contact.html">
-						Contact
-					</a>
-				</nav>
 		</header>
-
-		<!-- Main page -->
-		<div class="contents">
-			<!--"right side" -->
+		<!-- make 960px -->
+		<div class="main960px">
+			<!--"Left side" -->
 			<div class="mainpage">
 				<h2>Portfolio</h2>
 
-				<img src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/nature-q-c-640-480-6.jpg" alt="flowers">
-				<img src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/nightlife-q-g-640-480-4.jpg" alt="Shibuya">
-				<img src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/people-q-c-640-480-7.jpg" alt="prople">
-				<img src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/city-q-g-640-480-6.jpg" alt="city">
-				<img src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/cats-q-g-640-480-4.jpg" alt="cat">
-					
-
-
+				<table>
+					<tr>
+						<td>
+							<img class="picture" src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/nature-q-c-640-480-6.jpg" alt="flowers">
+							<div class="text"><h4>Flowers</h4></div>
+						</td>
+						<td>
+							<img class="picture" src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/nightlife-q-g-640-480-4.jpg" alt="Shibuya">
+							<div class="text"><h4>Shibuya in Tokyo</h4></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img class="picture" src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/people-q-c-640-480-7.jpg" alt="people">
+							<div class="text"><h4>Woman</h4></div>
+						</td>
+						<td>
+							<img class="picture" src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/city-q-g-640-480-6.jpg" alt="city">
+							<div class="text"><h4>Building</h4></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img class="picture" src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/cats-q-g-640-480-4.jpg" alt="cat">
+							<div class="text"><h4>Cat</h4></div>
+						</td>
+					</tr>
+				</table>
 			</div>
 
-
+			<!--Right side -->
 			<aside class="sidebar">
 				<h3>Connect with Me</h3>
 
@@ -53,12 +76,12 @@
 					<a href="https://www.linkedin.com/"><img class="logo" src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/1474679267_LinkedIn.svg" alt="LinkedIn"></a>
 					<a href="http://stackoverflow.com/"><img class="logo" src="/Users/Nao/Desktop/Basic-Portfolio/assets/images/1474679323_stackoverflow.svg" alt="Stackoverflow"></a>
 			</aside>
-		</div>
+		</div>	
 
-		<footer class="footer">
-			<p>&copy Copyright 2016 Nao Kosaka</p>
+		<!--Footer-->
+		<footer>
+			&copy Copyright 2016 Nao Kosaka
 		</footer>
 
 	</body>
-
 </html>
